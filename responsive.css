@@ -1,0 +1,32 @@
+@media screen and (max-width: 1250px) {
+  .highlights {
+    width: 1170px;
+    padding: 0px 40px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .highlights {
+    display: none;
+  }
+  .res_flex_child {
+    display: flex;
+    align-items: center;
+  }
+  .uk_responsive_header {
+    display: block;
+  }
+  .uk_res_center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uk_gogo_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .uk_res_gogo {
+    padding: 10px;
+  }
+}

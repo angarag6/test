@@ -1,0 +1,86 @@
+.image_1 {
+  position: relative;
+  width: 650px;
+  height: 365px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.image_title {
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 650px;
+  height: 365px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.image_1 .image_title:hover {
+  opacity: 1;
+}
+.image_1 .image_title .image_title_p {
+  opacity: 1;
+  transition: 0.3s;
+}
+.image_1 .image_title:hover .image_title_p {
+  opacity: 0.6;
+  width: 650px;
+  height: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.image_1 img {
+  transition: 0.3s;
+  transform: scale(1);
+}
+.image_1:hover img {
+  transform: scale(1.1);
+}
+.lazy_image_hvr {
+  position: relative;
+  width: 260px;
+  height: 157px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.lazy_image_title {
+  top: 0;
+  position: absolute;
+  opacity: 0;
+  width: 260px;
+  height: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.lazy_image_hvr .lazy_image_title:hover {
+  opacity: 1;
+}
+.lazy_image_hvr .lazy_image_titlen .lazy_image_title_p {
+  opacity: 1;
+  transition: 0.3s;
+}
+.lazy_image_hvr .lazy_image_title:hover .lazy_image_title_p {
+  opacity: 0.6;
+  width: 260px;
+  height: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.lazy_image_hvr img {
+  transition: 0.3s;
+  transform: scale(1);
+}
+.lazy_image_hvr:hover img {
+  transform: scale(1.1);
+}
