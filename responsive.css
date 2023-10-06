@@ -39,35 +39,48 @@
   .mobile_net_image {
     width: 100vw;
     height: 330px;
+    border-radius: 10px;
   }
   .uk_two {
     margin-top: 300px;
   }
   .uk_text_res {
     color: #fff;
-  background-image: linear-gradient(-120deg, #e08100, #c90027);
-  width: 58px;
-  height: 22px;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 100px;
-  padding: 4px 10px;
-  }
-  .mobile_net_image {
-    position: absolute;
-  }
-  .uk_position_absolute {
-    position: relative;
+    background-image: linear-gradient(-120deg, #e08100, #c90027);
+    width: 58px;
+    height: 22px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 4px 10px;
   }
   hr {
     display: none;
   }
-  .uk_disp_none {
+  .ner {
+    display: none;
+  }
+  .uk_collumn {
     display: none;
   }
   .content_body {
+    display: none;
+  }
+  .sec_two_end_container {
+    display: none;
+  }
+  .section_title {
+    display: none;
+  }
+  .uk_flx {
+    display: none;
+  }
+  .uk_tech {
+    display: none;
+  }
+  .uk_dark {
     display: none;
   }
 }
