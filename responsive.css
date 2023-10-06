@@ -4,6 +4,9 @@
     padding: 0px 40px;
     margin: auto;
   }
+  .uk_dark {
+    width: 1250px;
+  }
 }
 @media screen and (max-width: 960px) {
   .highlights {
@@ -20,13 +23,51 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
   }
   .uk_gogo_container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    margin-top: 5px;
   }
   .uk_res_gogo {
     padding: 10px;
+  }
+  .mobile_net_image {
+    width: 100vw;
+    height: 330px;
+  }
+  .uk_two {
+    margin-top: 300px;
+  }
+  .uk_text_res {
+    color: #fff;
+  background-image: linear-gradient(-120deg, #e08100, #c90027);
+  width: 58px;
+  height: 22px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 4px 10px;
+  }
+  .mobile_net_image {
+    position: absolute;
+  }
+  .uk_position_absolute {
+    position: relative;
+  }
+  hr {
+    display: none;
+  }
+  .uk_disp_none {
+    display: none;
+  }
+  .content_body {
+    display: none;
   }
 }
